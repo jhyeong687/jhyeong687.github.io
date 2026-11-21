@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lee Jin Hyeong, a Sogang University undergraduate interested in robotics, with a current focus on VLA models and agents for manipulation.">
+  <meta name="theme-color" content="#fcfbf8">
+  <title>Lee Jin Hyeong</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page" id="top">
+    <nav aria-label="Sections">
+      <a href="#education">Education</a>
+      <a href="#research">Projects</a>
+      <a href="#background">Study</a>
+      <a href="#honors">Honors</a>
+    </nav>
+
+    <main id="main">
+      <header class="intro">
+        <h1>Lee Jin Hyeong</h1>
+        <p class="affiliation">First-year undergraduate, Computer Science &amp; Engineering · Sogang University</p>
+        <p class="bio">I’m interested in all kinds of robots. Right now, I’m especially curious about how vision–language–action (VLA) models and agents can help robots adapt during manipulation.</p>
+        <ul class="profile-links" aria-label="Profile links">
+          <li><a href="Lee_Jin_Hyeong_Academic_CV.pdf"><span class="document-icon" aria-hidden="true"></span>CV <span class="format">(PDF)</span></a></li>
+          <li><a href="https://github.com/jhyeong687"><img class="link-icon" src="assets/github.png" width="16" height="16" alt="">GitHub</a></li>
+        </ul>
+      </header>
+
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <div class="education-entry">
+          <!-- Emblem source: Study in Korea, National Institute for International Education. -->
+          <img src="assets/sogang-emblem.png" width="103" height="144" alt="">
+          <div>
+            <h3>Sogang University <span class="location">Seoul, South Korea</span></h3>
+            <p>Undergraduate, Computer Science &amp; Engineering</p>
+            <p class="education-period"><time datetime="2026-02">Feb 2026</time>–present</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Projects</h2>
+
+        <article class="entry" aria-labelledby="regrasp-title">
+          <h3 id="regrasp-title">SO‑ARM101 · Re-observation and regrasp</h3>
+          <p class="entry-meta">Team lead, AI@Sogang student society <span>Fall 2026–present</span></p>
+          <p>I designed a LIBERO experiment comparing immediate execution with camera and arm checks under replayed cloud delays. Our team also calibrated and teleoperated a physical SO‑ARM101. The regrasp trial below was run in MuJoCo.</p>
+          <ul class="entry-links">
+            <li><a href="https://jhyeong687.github.io/so101-observatory/">Trial logs</a></li>
+            <li><a href="https://github.com/jhyeong687/so101-observatory">Code</a></li>
+          </ul>
+          <details class="replay">
+            <summary>Watch MuJoCo replay</summary>
+            <figure>
+              <video width="960" height="204" controls playsinline preload="none" poster="assets/regrasp.webp" aria-label="Silent replay of a simulated regrasp trial" aria-describedby="replay-caption">
+                <source src="assets/regrasp.mp4" type="video/mp4">
+                <a href="assets/regrasp.mp4">Open the regrasp replay</a>
+              </video>
+              <figcaption id="replay-caption">Wrist, belly, and top camera views. Waiting time is condensed.</figcaption>
+            </figure>
+          </details>
+        </article>
+
+        <article class="entry has-image" aria-labelledby="vtla-title">
+          <div>
+            <h3 id="vtla-title">VTLA · Tactile input for cup separation</h3>
+            <p class="entry-meta">Experimental design lead, AI@Sogang <span>Spring–summer 2026</span></p>
+            <p>I designed a π₀.₅ comparison on an SO-101 with a no-touch baseline and two ways of using tactile feedback. We collected 60 demonstrations and ran an offline pilot on 408 frames from one demonstration.</p>
+            <ul class="entry-links">
+              <li><a href="https://jhyeong687.github.io/VTLA/">Project &amp; results</a></li>
+              <li><a href="https://github.com/jhyeong687/VTLA">Code</a></li>
+            </ul>
+          </div>
+          <img class="thumbnail" src="assets/vtla.webp" width="1400" height="818" loading="lazy" alt="A physical SO-101 with a Paxini tactile gripper over stacked paper cups">
+        </article>
+
+        <article class="entry has-image" aria-labelledby="mora-title">
+          <div>
+            <h3 id="mora-title">MORA · Mobile Robotic Arm</h3>
+            <p class="entry-meta">In progress <span>Fall 2026–present</span></p>
+            <p>I designed a mount to put an SO‑ARM101 on a TurtleBot3 Burger. So far, I’ve simulated braking, motion on slopes, and waypoint transport with a fixed payload.</p>
+            <ul class="entry-links">
+              <li><a href="https://github.com/jhyeong687/MORA">CAD &amp; code</a></li>
+              <li><a href="https://github.com/jhyeong687/MORA/blob/main/docs/EVIDENCE.md">Simulation notes</a></li>
+            </ul>
+          </div>
+          <img class="thumbnail cad" src="assets/mora.webp" width="884" height="740" loading="lazy" alt="CAD of the SO-ARM101 and TurtleBot3 assembly">
+        </article>
+
+        <article class="entry" aria-labelledby="probes-title">
+          <h3 id="probes-title">SO‑ARM101 · Self-exploration in MuJoCo</h3>
+          <p class="entry-meta">Simulation pilot <span>Fall 2026</span></p>
+          <p>I compared reaching to 10 targets after no probing, fixed probing motions, and agent-selected probing motions. Each condition used one exploration sequence.</p>
+        </article>
+      </section>
+
+      <section id="background" aria-labelledby="background-title">
+        <h2 id="background-title">Study</h2>
+        <ul class="compact-list">
+          <li><strong>Robot Perception &amp; Learning</strong><span>Organized and led a six-week reading group at AI@Sogang on robot learning, active perception, and failure recovery.</span></li>
+          <li><strong>VLA Reading Group</strong><span>Studied diffusion, flow matching, VLA world models, and tactile policies with AI@Sogang.</span></li>
+          <li><strong>Independent study</strong><span>Worked through <a href="https://diffusion.csail.mit.edu/2025/index.html">MIT 6.S184</a> materials on flow matching and diffusion models.</span></li>
+        </ul>
+      </section>
+
+      <section id="honors" aria-labelledby="honors-title">
+        <h2 id="honors-title">Selected Honors</h2>
+        <ul class="compact-list honors-list">
+          <li><time datetime="2023">2023</time><div><strong>Grand Prize, Minister of Science and ICT</strong><span>Team project on an EMG-controlled virtual prosthesis</span></div></li>
+          <li><time datetime="2022">2022</time><div><strong>International Robot Contest</strong><span>Excellence Award, STEAMCUP Open Embedded Contest</span></div></li>
+          <li><time datetime="2021">2021</time><div><strong>International Robot Olympiad</strong><span>Team Korea · Technical Award, Physical Computing Challenge</span></div></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer><a href="#top">Back to top</a></footer>
+  </div>
+</body>
+</html>
