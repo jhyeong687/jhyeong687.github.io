@@ -25,7 +25,7 @@
         <p class="affiliation">First-year undergraduate, Computer Science &amp; Engineering · Sogang University</p>
         <p class="bio">I’m interested in all kinds of robots. Right now, I’m especially curious about how robots use vision and touch to tell whether they’ve grasped an object securely and decide what to do next.</p>
         <ul class="profile-links" aria-label="Profile links">
-          <li><a href="Lee_Jin_Hyeong_Academic_CV.pdf?v=4"><span class="document-icon" aria-hidden="true"></span>CV <span class="format">(PDF)</span></a></li>
+          <li><a href="Lee_Jin_Hyeong_Academic_CV.pdf?v=5"><span class="document-icon" aria-hidden="true"></span>CV <span class="format">(PDF)</span></a></li>
           <li><a href="https://github.com/jhyeong687"><img class="link-icon" src="assets/github.png" width="16" height="16" alt="">GitHub</a></li>
         </ul>
       </header>
@@ -46,24 +46,17 @@
       <section id="research" aria-labelledby="research-title">
         <h2 id="research-title">Projects</h2>
 
-        <article class="entry" aria-labelledby="regrasp-title">
-          <h3 id="regrasp-title">SO‑ARM101 · Re-observation and regrasp</h3>
-          <p class="entry-meta">Team lead, AI@Sogang student society <span>Fall 2026–present</span></p>
-          <p>I designed a LIBERO experiment comparing immediate execution with camera and arm checks under replayed cloud delays. Our team also calibrated and teleoperated a physical SO‑ARM101. The regrasp trial below was run in MuJoCo.</p>
-          <ul class="entry-links">
-            <li><a href="https://jhyeong687.github.io/so101-observatory/">Trial logs</a></li>
-            <li><a href="https://github.com/jhyeong687/so101-observatory">Code</a></li>
-          </ul>
-          <details class="replay">
-            <summary>Watch MuJoCo replay</summary>
-            <figure>
-              <video width="960" height="204" controls playsinline preload="none" poster="assets/regrasp.webp" aria-label="Silent replay of a simulated regrasp trial" aria-describedby="replay-caption">
-                <source src="assets/regrasp.mp4" type="video/mp4">
-                <a href="assets/regrasp.mp4">Open the regrasp replay</a>
-              </video>
-              <figcaption id="replay-caption">Wrist, belly, and top camera views. Waiting time is condensed.</figcaption>
-            </figure>
-          </details>
+        <article class="entry has-image" aria-labelledby="regrasp-title">
+          <div>
+            <h3 id="regrasp-title">Regrasp or Skip? · Tactile probing with SO-ARM101</h3>
+            <p class="entry-meta">In progress <span>Nov 2026–present</span></p>
+            <p>I designed parallel jaws for two PaXini pads and printable camera mounts. In MuJoCo, I compared how tactile measurements can guide grasp recovery, placement, and latch inspection.</p>
+            <ul class="entry-links">
+              <li><a href="https://jhyeong687.github.io/tactile-grasp-agent/">Project &amp; results</a></li>
+              <li><a href="https://github.com/jhyeong687/tactile-grasp-agent">Code &amp; CAD</a></li>
+            </ul>
+          </div>
+          <img class="thumbnail" src="assets/tactile-grasp.webp" width="768" height="432" loading="lazy" alt="Simulated SO-ARM101 grasp comparison with synchronized PaXini force maps">
         </article>
 
         <article class="entry has-image" aria-labelledby="vtla-title">
